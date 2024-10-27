@@ -19,7 +19,7 @@ let fullname = form.fname,
 //To handle event we have: addEventListener() method
 //addEventListener("event", callback_function());
 form.addEventListener("submit",function(e){
-    
+    // helloooo my name is sonu
     if(fullname.value == "") {
         // alert("Full name is required.");
         fullname.nextElementSibling.innerText = "Full name is required";
